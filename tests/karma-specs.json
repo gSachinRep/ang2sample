@@ -1,0 +1,29 @@
+{
+    "SecondsToTime pipe": {
+        "should convert integer to time format": "PASSED"
+    },
+    "RemoteValidator": {
+        "should load the directive without error": "PASSED",
+        "should create error if remote validation fails": "PASSED",
+        "should not create error if remote validation succeeds": "PASSED"
+    },
+    "Workout Runner": {
+        "should instantiate the Workout Runner Component": "PASSED",
+        "should start the workout": "PASSED",
+        "should start the first exercise": "PASSED",
+        "should start history tracking": "PASSED",
+        "should increase current exercise duration with time": "PASSED",
+        "should decrease total workout duration with time": "PASSED",
+        "should transition to next exercise on one exercise complete": "PASSED",
+        "should not update workoutTimeRemaining for paused workout on interval lapse": "PASSED",
+        "should end the workout when all exercises are complete": "PASSED"
+    },
+    "Workout Service": {
+        "can instantiate service when inject service": "PASSED",
+        "can instantiate service with \"new\"": "PASSED",
+        "can provide the mockBackend as XHRBackend": "PASSED",
+        "should return all workout plans": "PASSED",
+        "should return a workout plan with a specific name": "PASSED",
+        "should map exercises to workout plan correctly in getWorkout": "PASSED"
+    }
+}
